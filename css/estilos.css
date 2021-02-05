@@ -53,6 +53,7 @@ min-height: 100%;
     align-items: center;
     justify-content: center;
     grid-area: calculos;
+    font-family: 'Lemonada', cursive;
 }
 
 .contenedor .resultados{
