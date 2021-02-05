@@ -54,6 +54,7 @@ min-height: 100%;
     justify-content: center;
     grid-area: calculos;
     font-family: 'Lemonada', cursive;
+    
 }
 
 .contenedor .resultados{
@@ -93,4 +94,23 @@ input[type="submit"]{
     width: 10vw;
 }
 
+/* #act{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 
+#btm{
+    margin-bottom: 30px;
+} */
+
+@media screen and (max-width:640px){
+    input{
+       margin-bottom: 5px;
+       width: 50vw;
+       height: 6vh;
+       text-align: center;
+    }
+    input[type="submit"]{
+        width: 20vw;
+    }
+}
