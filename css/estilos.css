@@ -73,7 +73,7 @@ body {
     height: 8vh;
 }
 
-form{
+.formulario{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,6 +92,12 @@ input{
 input[type="submit"]{
     width: 10vw;
     height: 5vh;
+}
+
+input[type="submit"]:hover{
+    width: 10vw;
+    height: 5vh;
+    background-color:peru;
 }
 
 
